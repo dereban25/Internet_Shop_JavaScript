@@ -1,0 +1,49 @@
+.cart {
+    width: 200px;
+    height: 300px;
+    border: 5px solid green;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+
+.cart .name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cart .cost {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+.cart .add-to-cart {
+    font-size: 1.1rem;
+    background: black;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.goods-out {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.goods-out::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.cart .add-to-cart:hover {
+    background: green;
+}
+
+.cart .add-to-cart:active {
+    background: red;
+}
