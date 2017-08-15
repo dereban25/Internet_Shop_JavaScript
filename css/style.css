@@ -47,3 +47,7 @@
 .cart .add-to-cart:active {
     background: red;
 }
+.main-cart img{
+    width: 48px;
+
+}
